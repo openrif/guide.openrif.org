@@ -8,9 +8,9 @@ output: web
 destination: _site
 topnav_title: http://guide.openrif.org
 homepage_title: The OpenRIF Guide
-site_title: OpenRIFGuide
+site_title: The OpenRIF Guide
 project_folder: guide
-company_name: openrif.org
+company_name: OpenRIF
 footer_image_location: ../common_images/company_logo.png
 github_editme_path: openrif/guide.openrif.org/edit/gh-pages
 disqus_shortname: openrif
