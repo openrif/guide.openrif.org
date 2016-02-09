@@ -1,4 +1,18 @@
 
+{% if site.project == "guide" %}
+{% assign audience = "designers" %}
+{% assign sidebar = site.data.guide.sidebar.entries %}
+{% assign topnav = site.data.guide.topnav.topnav %}
+{% assign topnav_dropdowns = site.data.guide.topnav.topnav_dropdowns %}
+{% assign version = "all" %}
+{% assign product = "all" %}
+{% assign platform = "all" %}
+{% assign projectTags = site.data.guide.tags.allowed-tags %}
+{% assign projectFolder = "guide" %}
+{% endif %}
+
+
+
 {% comment %}
 __        __    _ _
 \ \      / / __(_) |_ ___ _ __ ___

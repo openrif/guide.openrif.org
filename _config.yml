@@ -1,26 +1,26 @@
 # project definitions
-project: mydoc_designers
+project: guide
 audience: designers
-product: doc
+product: all
 platform: all
 version: all
 output: web
-destination: ../doc_outputs/mydoc/designers
-topnav_title: Jekyll Documentation Theme
-homepage_title: Jekyll doc theme for designers
-site_title: Jekyll theme for designers
-project_folder: mydoc
-company_name: Your company
+destination: _site
+topnav_title: http://guide.openrif.org
+homepage_title: The OpenRIF Guide
+site_title: OpenRIFGuide
+project_folder: guide
+company_name: openrif.org
 footer_image_location: ../common_images/company_logo.png
-github_editme_path: tomjohnson1492/documentation-theme-jekyll/edit/reviews
-disqus_shortname: idrbwjekyll
+github_editme_path: https://github.com/openrif/guide.openrif.org/edit/gh-pages
+disqus_shortname: openrif
 # variables
 
 
-sidebar_tagline: Designers
-sidebar_version: Version 4.0
+#sidebar_tagline: Designers
+#sidebar_version: Version 4.0
 theme_file: theme-blue.css
-pdf_file_name: mydoc_designers_pdf.pdf
+#pdf_file_name: mydoc_designers_pdf.pdf
 
 # the algolia entries here are experimental only.
 
@@ -29,17 +29,18 @@ pdf_file_name: mydoc_designers_pdf.pdf
 #algolia:
 #  application_id: 'HXUBJERYYB'
 #  index_name:     'documentation_theme_jekyll_designers'
-port: 4009
+port: 40011
 
 exclude:
   - _site
   - _drafts
   - configs/
-  - doc/mydoc_writers*
+  - mydoc/
+  - mydoc_*
 
 # same for all
 host: 127.0.0.1
-feedback_email: tomjohnson1492@gmail.com
+#feedback_email: tomjohnson1492@gmail.com
 
 highlighter: rouge
 markdown: kramdown

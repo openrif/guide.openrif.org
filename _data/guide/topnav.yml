@@ -1,0 +1,48 @@
+## Topnav single links
+## if you want to list an external url, use external_url instead of url. the theme will apply a different link base.
+topnav:
+- title: Topnav
+  subcategories:
+
+    - title: Github Repo
+      external_url: https://github.com/openrif/guide.openrif.org
+      audience: writers, designers
+      platform: all
+      product: all
+      version: all
+      output: web
+
+#Topnav dropdowns
+topnav_dropdowns:
+- title: Topnav dropdowns
+  subcategories:
+    - title: OpenRIF Resources
+      audience: writers, designers
+      platform: all
+      product: all
+      version: all
+      output: web
+      items:
+        - title: OpenRIF Website
+          external_url: https://www.openrif.org
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+          output: web
+
+        - title: OpenRIF Community list
+          external_url: https://groups.google.com/forum/#!forum/openrif
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+          output: web
+
+        - title: OpenRIF Developer list
+          external_url: https://groups.google.com/forum/#!forum/openrif-team
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+          output: web
